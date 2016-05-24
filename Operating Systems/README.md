@@ -6,6 +6,12 @@
 1. [Course Overview](https://docs.google.com/document/d/1NHgibsFIYxuzP6F-MUfdp7960ryAcPkuZmwCSgiys5A/pub)
 2. [OS Introduction](https://docs.google.com/document/d/1ArRpNXkm4q2-OBP9RWjT5LhYdC0TwLwKnUqSNhL9JVE/pub)
 
+## Textbooks
+* Operating System Concepts
+* Operating System Concepts: Essentials
+* Modern Operating Systems
+* Operating Systems: Three Easy Pieces
+
 ## Vocabulary
 * https://quizlet.com/9875856/operating-system-concepts-ch-1-flash-cards/ 
 
