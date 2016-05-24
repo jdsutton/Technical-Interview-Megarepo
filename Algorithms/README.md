@@ -8,6 +8,7 @@
 * BST Sort
 
 ## Searching / Graph Traversal
+* Binary Search
 * Breadth-First
 * Depth-First
 * Uniform-Cost/Dijkstra's
