@@ -18,5 +18,8 @@ This repository contains study materials for technical interviews.
 * [Top Coder](https://www.topcoder.com/my-dashboard/)
 * [Project Euler](https://projecteuler.net/)
 
+## Videos
+* [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+
 ## Articles
 * [Get that Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
