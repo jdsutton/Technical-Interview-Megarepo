@@ -1,6 +1,8 @@
 # Operating Systems
 
-## Introduction to Operating Systems - Notes
+## Udacity, Introduction to Operating Systems - Notes
+[Course Homepage](https://www.udacity.com/course/introduction-to-operating-systems--ud923)
+
 1. [Course Overview](https://docs.google.com/document/d/1NHgibsFIYxuzP6F-MUfdp7960ryAcPkuZmwCSgiys5A/pub)
 2. [OS Introduction](https://docs.google.com/document/d/1ArRpNXkm4q2-OBP9RWjT5LhYdC0TwLwKnUqSNhL9JVE/pub)
 
