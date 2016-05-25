@@ -1,18 +1,12 @@
 # Technical Interview Megarepo
 This repository contains study materials for technical interviews.
 
-## Algorithms
-[Algorithms Content](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Algorithms)
-
-## Data Structures
-[Data Structures Content](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Data%20Structures)
-
-## Mathematics
-
-## Operating Systems
-[Operating Systems Content](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Operating%20Systems)
-
-## System Design
+## Study Material
+* [Algorithms](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Algorithms)
+* [Data Structures](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Data%20Structures)
+* Mathematics
+* [Operating Systems](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Operating%20Systems)
+* System Design
 
 ## Practice Questions
 * [Hacker Rank](https://www.hackerrank.com/)
