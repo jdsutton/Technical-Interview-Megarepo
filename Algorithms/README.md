@@ -1,5 +1,11 @@
 # Algorithms
 
+## Algorithm Analysis
+* [Khan Academy - Asymptotic Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
+* [Wikipedia - Analysis of Algorithms](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
+* [A Gentle Introduction to Algorithm Complexity](http://discrete.gr/complexity/)
+* [Princeton - An Introdution to the Analysis of Algorithms](http://aofa.cs.princeton.edu/home/)
+
 ## Sorting
 ![sorting algorithm comparison](https://d262ilb51hltx0.cloudfront.net/max/800/1*w3vKy_JFKd50dixxFkpPPg.png)
 
