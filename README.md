@@ -15,6 +15,7 @@ This repository contains study materials for technical interviews.
 * [Project Euler](https://projecteuler.net/)
 * [Interviewcake](https://www.interviewcake.com/)
 * [CodingBat](http://codingbat.com/java)
+* [CodeRust](https://www.educative.io/collection/5642554087309312/5679846214598656)
 
 ## Videos
 * [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
