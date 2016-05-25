@@ -6,7 +6,7 @@ This repository contains study materials for technical interviews.
 * [Data Structures](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Data%20Structures)
 * [Mathematics](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Mathematics)
 * [Operating Systems](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Operating%20Systems)
-* System Design
+* [System Design](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/System%20Design)
 
 ## Practice Questions
 * [Hacker Rank](https://www.hackerrank.com/)
