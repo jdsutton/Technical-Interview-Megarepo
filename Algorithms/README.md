@@ -6,6 +6,15 @@
 * [A Gentle Introduction to Algorithm Complexity](http://discrete.gr/complexity/)
 * [Princeton - An Introdution to the Analysis of Algorithms](http://aofa.cs.princeton.edu/home/)
 
+## Textbooks
+* Cormen, Leiserson, Rivest, and Stein - Introduction to Algorithms
+* Skiena - The Algorithm Design Manual
+
+## Courses
+* [Standford + Coursera - Algorithms: Design and Analysis, Part 1](https://www.coursera.org/course/algo)
+* [Princeton + Coursera - Algorithms, Part I](https://www.coursera.org/course/algs4partI)
+* [Udacity - Intro to Algorithms: Social Network Analysis](https://www.udacity.com/course/intro-to-algorithms--cs215)
+
 ## Sorting
 ![sorting algorithm comparison](https://d262ilb51hltx0.cloudfront.net/max/800/1*w3vKy_JFKd50dixxFkpPPg.png)
 
