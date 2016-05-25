@@ -1,11 +1,36 @@
 # Data Structures
 
 ## Arrays
-### Dynamic Arrays
+
+| Operation                  | Time Complexity    |
+|----------------------------|--------------------|
+| Access                     | Θ(1)               |
+| Insert/delete at beginning | N/A                |
+| Insert/delete at end       | N/A                |
+| Insert/delete in middle    | N/A                |
+| Wasted space (average)     | 0                  |
+
+## Dynamic Arrays
+
+| Operation                  | Time Complexity    |
+|----------------------------|--------------------|
+| Access                     | Θ(1)               |
+| Insert/delete at beginning | Θ(n)               |
+| Insert/delete at end       | Θ(1) (amortized)   |
+| Insert/delete in middle    | Θ(n)               |
+| Wasted space (average)     | Θ(n)               |
 
 ## Linked Lists
 * [Linked List Visualization](http://visualgo.net/list)
 * [Cycle Finding Visualization](http://visualgo.net/cyclefinding)
+
+| Operation                  | Time Complexity    |
+|----------------------------|--------------------|
+| Access                     | Θ(n)               |
+| Insert/delete at beginning | Θ(1)               |
+| Insert/delete at end       | Θ(1)               |
+| Insert/delete in middle    | search time + Θ(1) |
+| Wasted space (average)     | Θ(n)               |
 
 ## Heaps
 * [Heap Visualization](http://visualgo.net/heap)
