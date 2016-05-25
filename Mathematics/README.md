@@ -25,3 +25,5 @@
 * <sup>n</sup>P<sub>r</sub>
   * # of permuations of r elements from a set of n
   * = n! / (n - r)!
+* Subsets
+  * # of all possible subsets from a set of n = 2<sup>n</sup>
