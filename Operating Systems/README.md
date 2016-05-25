@@ -16,8 +16,9 @@
 * https://quizlet.com/9875856/operating-system-concepts-ch-1-flash-cards/ 
 
 ## System Calls
-![system call list](https://s3.amazonaws.com/content.udacity-data.com/courses/ud923/notes/ud923-p1l2-windows-vs-linux-system-calls.png)
 * Requests to the kernel to perform some privileged operation
+* [Wikipedia - System Call](https://en.wikipedia.org/wiki/System_call)
+* "In computing, a system call is the programmatic way in which a computer program requests a service from the kernel of the operating system it is executed on. This may include hardware-related services (for example, accessing a hard disk drive), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system."
 
 ## Processes
 * [Wikipedia - Process](https://en.wikipedia.org/wiki/Process_(computing))
