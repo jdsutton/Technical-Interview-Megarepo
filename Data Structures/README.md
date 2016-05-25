@@ -36,17 +36,25 @@
 * [Heap Visualization](http://visualgo.net/heap)
 
 ## Stacks
+* TODO
 
 ## Queues
+* TODO
 
 ## Trees
-### Binary Trees
-### N-ary Trees
+* TODO
+
+## Binary Trees
+* TODO
+
+## N-ary Trees
+* TODO
 
 ## Binary Search Trees
 * [Binary Search Tree Visualization](http://visualgo.net/bst)
 
 ## Balanced Binary Search Trees
+* TODO
 * AVL Tree
 * Splay Tree
 * Red-Black Tree
@@ -60,6 +68,7 @@
 
 ## Graphs
 * [Graph Visualization](http://visualgo.net/graphds)
+* TODO
 
 ## HashTables
 * [HashTable Visualization](http://visualgo.net/hashtable)
