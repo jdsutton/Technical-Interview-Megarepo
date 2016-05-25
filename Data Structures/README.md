@@ -85,12 +85,12 @@
 * Useful for very fast lookup, insertion, deletion
 * Common implementation of a dictionary
 
-|        | Average | Worse Case |
-|--------|---------|------------|
-| Space  | O(n)    | O(n)       |
-| Search | O(1)    | O(n)       |
-| Insert | O(1)    | O(n)       |
-| Delete | O(1)    | O(n)       |
+|Operation| Average | Worse Case |
+|---------|---------|------------|
+| Space   | O(n)    | O(n)       |
+| Search  | O(1)    | O(n)       |
+| Insert  | O(1)    | O(n)       |
+| Delete  | O(1)    | O(n)       |
 
 ## Union-find
 * [Union-find Visualization](http://visualgo.net/ufds)
