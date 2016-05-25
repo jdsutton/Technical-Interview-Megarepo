@@ -18,9 +18,9 @@
 * [Wikipedia - Binomial Coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient)
 * [Wikipedia - Combination](https://en.wikipedia.org/wiki/Combination)
 * <sup>n</sup>C<sub>r</sub>
+  * ![n choose k](https://upload.wikimedia.org/math/3/8/2/382c5908d125a08662b2fedc22f4d02c.png)
   * # of combinations of r elements from a set of n
   * = n! / r! (n - r)!
-* ![n choose k](https://upload.wikimedia.org/math/3/8/2/382c5908d125a08662b2fedc22f4d02c.png) = n! / k!(n - k)!
 * [Wikipedia - Permutation](https://en.wikipedia.org/wiki/Permutation)
 * <sup>n</sup>P<sub>r</sub>
   * # of permuations of r elements from a set of n
