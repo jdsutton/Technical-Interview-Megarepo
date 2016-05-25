@@ -39,12 +39,24 @@
 | O(n<sup>2</sup>) | O(n log n)   | O(n log n) or O(n) | O(n) (naive) or O(log n) |
 
 ### Heapsort
+* TODO
 
 ### BST Sort
+* TODO
 
 ## Searching / Graph Traversal
-* Binary Search
-* Breadth-First
-* Depth-First
-* Uniform-Cost/Dijkstra's
-* A*
+
+### Binary Search
+* TODO
+
+### Breadth-First
+* TODO
+
+### Depth-First
+* TODO
+
+### Uniform-Cost/Dijkstra's
+* TODO
+
+### A*
+* TODO
