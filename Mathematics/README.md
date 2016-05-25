@@ -3,7 +3,7 @@
 ## Discrete Mathematics
 * [Knuth, Concrete Mathematics - A Foundation for Computer Science](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 * [MIT - Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
-* [University of Victoria - Discreet Math](http://www.math.uvic.ca/faculty/gmacgill/guide/index.html)
+* [University of Victoria - Discrete Math](http://www.math.uvic.ca/faculty/gmacgill/guide/index.html)
 
 ## Probability
 * [Khan Academy - Probability and Statistics](https://www.khanacademy.org/math/probability?t=table-of-contents)
