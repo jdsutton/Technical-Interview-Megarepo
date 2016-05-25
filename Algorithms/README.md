@@ -6,6 +6,10 @@
 * [A Gentle Introduction to Algorithm Complexity](http://discrete.gr/complexity/)
 * [Princeton - An Introdution to the Analysis of Algorithms](http://aofa.cs.princeton.edu/home/)
 
+## Amortized Analysis
+* [Wikipedia - Amortized Analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
+* [Stack Overflow - Amortized Analysis](http://stackoverflow.com/questions/11102585/what-is-amortized-analysis-of-algorithms)
+
 ## Textbooks
 * Cormen, Leiserson, Rivest, and Stein - Introduction to Algorithms
 * Skiena - The Algorithm Design Manual
