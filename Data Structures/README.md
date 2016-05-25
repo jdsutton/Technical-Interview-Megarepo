@@ -32,8 +32,18 @@
 | Insert/delete in middle    | search time + Θ(1) |
 | Wasted space (average)     | Θ(n)               |
 
-## Heaps
+## Binary Heaps
 * [Heap Visualization](http://visualgo.net/heap)
+* Useful for quickly finding the minimum or maximum of a set of values
+* Useful for sorting values (heapsort)
+
+| Operation    | Time Complexity    |
+|--------------|--------------------|
+| Find min     | Θ(1)               |
+| Delete min   | Θ(log n)           |
+| Insert       | Θ(log n)           |
+| Decrease Key | Θ(log n)           |
+| Merge        | Θ(n)               |
 
 ## Stacks
 * TODO
