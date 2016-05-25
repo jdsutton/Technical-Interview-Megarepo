@@ -32,4 +32,4 @@ This repository contains study materials for technical interviews.
 
 ## Get Help
 * [Reddit CS Questions](https://www.reddit.com/r/CS_Questions)
-* [Redding CS Career Questions](https://www.reddit.com/r/cscareerquestions)
+* [Reddit CS Career Questions](https://www.reddit.com/r/cscareerquestions)
