@@ -1,5 +1,19 @@
 # Mathematics
 
+## Radix
+* [Radix](https://en.wikipedia.org/wiki/Radix)
+* [Base Conversion](https://en.wikipedia.org/wiki/Positional_notation#Base_conversion)
+* [Converting to/from Decimal](http://www.cs.trincoll.edu/~ram/cpsc110/inclass/conversions.html)
+
+## Binary
+* [Sign-magnitude](https://en.wikipedia.org/wiki/Signed_number_representations)
+  * " In this approach, the problem of representing a number's sign can be to allocate one sign bit to represent the sign: setting that bit (often the most significant bit) to 0 is for a positive number or positive zero, and setting it to 1 is for a negative number or negative zero. The remaining bits in the number indicate the magnitude (or absolute value)."
+* [One's complement](https://en.wikipedia.org/wiki/Ones%27_complement)
+  * "The ones' complement of a binary number is defined as the value obtained by inverting all the bits in the binary representation of the number (swapping 0s for 1s and vice versa). The ones' complement of the number then behaves like the negative of the original number in some arithmetic operations"
+  * "However, unlike two's complement, these numbers have not seen widespread use because of issues such as the offset of −1, that negating zero results in a distinct negative zero bit pattern, less simplicity with arithmetic borrowing, etc"
+* [Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement)
+  * "Two's complement is a mathematical operation on binary numbers, as well as a binary signed number representation based on this operation. Its wide use in computing makes it the most important example of a radix complement. The two's complement of an N-bit number is defined as the complement with respect to 2<sup>N</sup>; in other words, it is the result of subtracting the number from 2<sup>N</sup>"
+
 ## Discrete Mathematics
 * [Knuth, Concrete Mathematics - A Foundation for Computer Science](http://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science/dp/0201558025)
 * [MIT - Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
