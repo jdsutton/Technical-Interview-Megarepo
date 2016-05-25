@@ -12,10 +12,16 @@
 ## Probability
 * [Khan Academy - Probability and Statistics](https://www.khanacademy.org/math/probability?t=table-of-contents)
 * [Udacity - Intro to Statistics](https://www.udacity.com/course/intro-to-statistics--st101)
-* ![n choose k](https://upload.wikimedia.org/math/3/8/2/382c5908d125a08662b2fedc22f4d02c.png) = n!/k!(n-k)!
 
 ## Combinatorics
 * [Khan Academy - Combinatorics](https://www.khanacademy.org/math/probability/probability-and-combinatorics-topic)
 * [Wikipedia - Binomial Coefficient](https://en.wikipedia.org/wiki/Binomial_coefficient)
 * [Wikipedia - Combination](https://en.wikipedia.org/wiki/Combination)
+* <sup>n</sup>C<sub>r</sub>
+  * # of combinations of r elements from a set of n
+  * = n! / r! (n - r)!
+* ![n choose k](https://upload.wikimedia.org/math/3/8/2/382c5908d125a08662b2fedc22f4d02c.png) = n! / k!(n - k)!
 * [Wikipedia - Permutation](https://en.wikipedia.org/wiki/Permutation)
+* <sup>n</sup>P<sub>r</sub>
+  * # of permuations of r elements from a set of n
+  * = n! / (n - r)!
