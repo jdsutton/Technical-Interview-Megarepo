@@ -5,9 +5,13 @@
 * [MIT - Mathematics for Computer Science](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
 * [University of Victoria - Discrete Math](http://www.math.uvic.ca/faculty/gmacgill/guide/index.html)
 
-### Summation Formulas
+## Summation Formulas
 * Σ(i=1...n, i) = n(n + 1)/n
 * In general the sum of i<sup>k</sup> from 1...n is O(n<sup>k + 1</sup>)
+
+## Recurrence Relations
+* [Duke University - Recurrence Relations](https://users.cs.duke.edu/~reif/courses/alglectures/skiena.lectures/lecture3.pdf)
+* [Carnegie Mellon University - Solving Recurrence Relations](http://www.cs.cmu.edu/~rweba/algf09/solverecurrencesSF.pdf)
 
 ## Probability
 * [Khan Academy - Probability and Statistics](https://www.khanacademy.org/math/probability?t=table-of-contents)
