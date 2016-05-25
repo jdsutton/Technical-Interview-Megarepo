@@ -9,6 +9,9 @@
 | O(n log n) | O(n log n)   | O(n log n) typical,O(n) natural variant | O(n)               |
 
 * Quicksort
+  * [Wikipedia Article on Quicksort](https://en.wikipedia.org/wiki/Quicksort)
+  * "Typically, quicksort is significantly faster in practice than other Θ(nlogn) algorithms, because its inner loop can be efficiently implemented on most architectures, and in most real-world data, it is possible to make design choices which minimize the probability of requiring quadratic time."
+  * Low memory requirement
 * Heapsort
 * BST Sort
 
