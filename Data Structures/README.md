@@ -55,10 +55,18 @@
 * TODO
 
 ## Binary Trees
-* TODO
+* [Binary Tree Visualization](http://kanaka.github.io/rbt_cfs/trees.html)
+* Can be stored in an array without using pointers
+  * Inefficient for sparse trees
 
 ## N-ary Trees
-* TODO
+* [Wikipedia - K-ary tree](https://en.wikipedia.org/wiki/K-ary_tree)
+* Rooted tree where each node has at most N children
+* Binary tree is a special case where N = 2
+* For an N-ary tree of height h, the maximum number of leaves is N<sup>h</sup>
+* Can be stored in an array
+  * c<sup>th</sup> child: child(i, c) = k * i + c
+  * parent(i) = floor((i - 1) / k)
 
 ## Binary Search Trees
 * [Binary Search Tree Visualization](http://visualgo.net/bst)
