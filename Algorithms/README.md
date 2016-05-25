@@ -2,13 +2,14 @@
 
 ## Sorting
 ![sorting algorithm comparison](https://d262ilb51hltx0.cloudfront.net/max/800/1*w3vKy_JFKd50dixxFkpPPg.png)
-* Mergesort
+### Mergesort
+  * Requires more memory than Quicksort, but is faster in the worst case
 
 | Worst Case | Average Cast | Best Case                               | Worse Case (Space) |
 |------------|--------------|-----------------------------------------|--------------------|
 | O(n log n) | O(n log n)   | O(n log n) typical,O(n) natural variant | O(n)               |
 
-* Quicksort
+### Quicksort
 
 | Worst Case       | Average Cast | Best Case          | Worse Case (Space)       |
 |------------------|--------------|--------------------|--------------------------|
