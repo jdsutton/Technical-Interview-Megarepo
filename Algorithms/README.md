@@ -60,3 +60,13 @@
 
 ### A*
 * TODO
+
+### NP-Complete Problems
+* [Wikipedia - NP-Completeness](https://en.wikipedia.org/wiki/NP-completeness)
+* "In computational complexity theory, a decision problem is NP-complete when it is both in NP and NP-hard. The set of NP-complete problems is often denoted by NP-C or NPC. The abbreviation NP refers to "nondeterministic polynomial time". Although any given solution to an NP-complete problem can be verified quickly (in polynomial time), there is no known efficient way to locate a solution in the first place; indeed, the most notable characteristic of NP-complete problems is that no fast solution to them is known."
+
+## Travelling Salesman Problem (TSP)
+* TODO
+
+## Knapsack
+* TODO
