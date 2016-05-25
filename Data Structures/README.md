@@ -72,3 +72,10 @@
 | Search | O(1)    | O(n)       |
 | Insert | O(1)    | O(n)       |
 | Delete | O(1)    | O(n)       |
+
+## Union-find
+* [Union-find Visualization](http://visualgo.net/ufds)
+* Useful for quickly determining if two items belong to the same set
+* Useful for quickly joining sets
+* [Wikipedia - Disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+* "...the amortized time per operation is only O(α(n)) ... Thus, the amortized running time per operation is effectively a small constant."
