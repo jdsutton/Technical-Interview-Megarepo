@@ -2,6 +2,7 @@
 
 ## Radix
 * [Radix](https://en.wikipedia.org/wiki/Radix)
+  * "In mathematical numeral systems, the radix or base is the number of unique digits, including zero, used to represent numbers in a positional numeral system. For example, for the decimal system (the most common system in use today) the radix is ten, because it uses the ten digits from 0 through 9."
 * [Base Conversion](https://en.wikipedia.org/wiki/Positional_notation#Base_conversion)
 * [Converting to/from Decimal](http://www.cs.trincoll.edu/~ram/cpsc110/inclass/conversions.html)
 
