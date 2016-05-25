@@ -21,7 +21,7 @@
 * [University of Victoria - Discrete Math](http://www.math.uvic.ca/faculty/gmacgill/guide/index.html)
 
 ## Summation Formulas
-* Σ(i=1...n, i) = n(n + 1)/n
+* Σ(i=1...n, i) = n(n + 1)/2
 * In general the sum of i<sup>k</sup> from 1...n is O(n<sup>k + 1</sup>)
 
 ## Logarithm Formulas
