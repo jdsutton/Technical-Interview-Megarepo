@@ -16,11 +16,17 @@
 ### Structural Patterns
 * [Wikipedia - Structural Pattern](https://en.wikipedia.org/wiki/Structural_pattern)
 * "In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships between entities."
-* [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern) - "In software engineering, the adapter pattern is a software design pattern that allows the interface of an existing class to be used as another interface. It is often used to make existing classes work with others without modifying their source code."
+* [Adapter](https://en.wikipedia.org/wiki/Adapter_pattern) - "Convert the interface of a class into another interface clients expect. An adapter lets classes work together that could not otherwise because of incompatible interfaces. The enterprise integration pattern equivalent is the translator."
 
 ### Behavioral Patterns
+* [Wikipedia - Behavioral Pattern](https://en.wikipedia.org/wiki/Behavioral_pattern)
+* "In software engineering, behavioral design patterns are design patterns that identify common communication patterns between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this communication."
+* [Iterator](https://en.wikipedia.org/wiki/Iterator_pattern) - "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation."
 
 ### Concurrency Patterns
+* [Wikipedia - Concurrency Pattern](https://en.wikipedia.org/wiki/Concurrency_pattern)
+* "In software engineering, concurrency patterns are those types of design patterns that deal with the multi-threaded programming paradigm."
+* [Active Object](https://en.wikipedia.org/wiki/Active_object) - "Decouples method execution from method invocation that reside in their own thread of control. The goal is to introduce concurrency, by using asynchronous method invocation and a scheduler for handling requests."
 
 ## Class Structures
 
