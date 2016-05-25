@@ -2,8 +2,10 @@
 This repository contains study materials for technical interviews.
 
 ## Algorithms
+[Algorithms Content](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Algorithms)
 
 ## Data Structures
+[Data Structures Content](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Data%20Structures)
 
 ## Mathematics
 
