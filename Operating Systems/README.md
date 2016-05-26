@@ -5,6 +5,7 @@
 
 1. [Course Overview](https://docs.google.com/document/d/1NHgibsFIYxuzP6F-MUfdp7960ryAcPkuZmwCSgiys5A/pub)
 2. [OS Introduction](https://docs.google.com/document/d/1ArRpNXkm4q2-OBP9RWjT5LhYdC0TwLwKnUqSNhL9JVE/pub)
+3. [Processes and Process Management](https://docs.google.com/document/d/1egz8qH27XD6c4QYzd9akeO_0e-AvlCjzLkfZQfsn_nE/pub)
 
 ## Textbooks
 * Operating System Concepts
