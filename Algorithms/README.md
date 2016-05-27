@@ -5,6 +5,7 @@
 * [Wikipedia - Analysis of Algorithms](https://en.wikipedia.org/wiki/Analysis_of_algorithms)
 * [A Gentle Introduction to Algorithm Complexity](http://discrete.gr/complexity/)
 * [Princeton - An Introdution to the Analysis of Algorithms](http://aofa.cs.princeton.edu/home/)
+* [Big-O Cheat Sheet](https://drive.google.com/folderview?id=0B9l0_ldK09SOfjE3R1c2LTcxSU8xSGxXNkJpOF9iQ0JMV1NLUDhnUmlXVm50R0tLTGFUeEE)
 
 ## Amortized Analysis
 * [Wikipedia - Amortized Analysis](https://en.wikipedia.org/wiki/Amortized_analysis)
