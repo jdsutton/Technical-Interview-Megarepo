@@ -20,6 +20,7 @@ This repository contains study materials for technical interviews.
   * [Interviewcake - Past Google Interview Questions](https://www.interviewcake.com/google-interview-questions)
 * [CodingBat](http://codingbat.com/java)
 * [CodeRust](https://www.educative.io/collection/5642554087309312/5679846214598656)
+* ["Awesome Interview Questions"](https://github.com/MaximAbramchuck/awesome-interview-questions)
 
 ## Videos
 * [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
