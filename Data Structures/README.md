@@ -46,10 +46,18 @@
 | Merge        | Θ(n)               |
 
 ## Stacks
-* TODO
+* [Stack Visualization](https://www.cs.usfca.edu/~galles/visualization/StackArray.html)
+* LIFO (Last in, First Out)
+* Abstract data type. Can be implemented a variety of ways. e.g. Arrays, linked lists, etc.
+* Generally implements push and pop operations.
+* Classic example: Reversing a word. Keep pushing letters on a stack, and then create a new word by popping the letters of the stack.
 
 ## Queues
-* TODO
+* [Queue Visualization](http://www.cs.usfca.edu/~galles/JavascriptVisual/QueueArray.html)
+* FIFO (First in, First Out)
+* Abstract data type. Can be implemented a variety of ways. e.g. Arrays, linked lists, etc.
+* Generally implements push (enqueue) and pop (dequeue) operations.
+* Classic example: Literally, maintaining a queue. For example, a game's waiting room could use a queue to help determine who plays next.
 
 ## Trees
 * TODO
