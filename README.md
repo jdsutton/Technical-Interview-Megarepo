@@ -15,6 +15,7 @@ This repository contains study materials for technical interviews.
 * [Leet Code](https://leetcode.com/)
 * [Top Coder](https://www.topcoder.com/my-dashboard/)
 * [Project Euler](https://projecteuler.net/)
+* [InterviewBit](https://www.interviewbit.com/)
 * [Interviewcake](https://www.interviewcake.com/)
   * [Interviewcake - Past Google Interview Questions](https://www.interviewcake.com/google-interview-questions)
 * [CodingBat](http://codingbat.com/java)
