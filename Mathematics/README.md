@@ -25,7 +25,10 @@
 * In general the sum of i<sup>k</sup> from 1...n is O(n<sup>k + 1</sup>)
 
 ## Logarithm Formulas
-* TODO: Fast logarithm-based multiplication
+* log(mn) = log(m) + log(n)
+* log(m/n) = log(m) - log(n)
+* Fast logarithm multiplcation
+  * mn = e<sup>ln(m) + ln(n)</sup>
 
 ## Recurrence Relations
 * [Duke University - Recurrence Relations](https://users.cs.duke.edu/~reif/courses/alglectures/skiena.lectures/lecture3.pdf)
