@@ -12,7 +12,7 @@
 * Operating System Concepts
 * Operating System Concepts: Essentials
 * Modern Operating Systems
-* Operating Systems: Three Easy Pieces
+* [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) (free from the authors)
 
 ## Vocabulary
 * https://quizlet.com/9875856/operating-system-concepts-ch-1-flash-cards/ 
