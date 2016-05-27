@@ -25,6 +25,7 @@ This repository contains study materials for technical interviews.
 * [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
 
 ## Articles
+* [10 Tech Interview Errors](http://www.monster.com/career-advice/article/ten-tech-it-interview-errors)
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.86ew7cfex)
 * [Get that Job at Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html)
 * [33 of the Hardest Questions Apple will ask in a Job Interview](http://www.businessinsider.com/the-hardest-apple-interview-questions-2016-4)
