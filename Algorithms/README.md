@@ -60,7 +60,11 @@
 | O(n log n)       | O(n log n)   | Ω(n), O(n log n)   | O(1)                     |
 
 ### BST Sort
-* TODO
+* Performs an [in-order traversal](http://visualgo.net/bst) over a Binary Search Tree
+
+| Worst Case            | Average Case | Best Case  | Worst Case (Space) |
+|-----------------------|--------------|------------|--------------------|
+| O(n log n) (balanced) | O(n log n)   | O(n log n) | Θ(n)               |
 
 ## Searching / Graph Traversal
 
