@@ -69,10 +69,19 @@
 ## Searching / Graph Traversal
 
 ### Binary Search
-* TODO
+* Binary search, or logarithmic search, is a search algorithm that finds the position of a target value within a sorted array. Simply put, divide and conquer. It works by comparing the target value to the middle element of the array and if they are unequal, the lower or upper half of the array is eliminated depending on the result and the search is repeated in the remaining subarray until it is successful. 
+
+| Worst Case            | Average Case | Best Case  |       Worst Case (Space)        |
+|-----------------------|--------------|------------|---------------------------------|
+|       O(log n)        |     O(log n) |    O(1)    | O(1) iterative O(log n) recursive
 
 ### Breadth-First
-* TODO
+* Breadth-first search is an algorithm for traversing tree or graph data structures. It starts at the tree root or node, searching nearby elements first before moving the next level elements. 
+ 
+| Worst Case            |                                 Worst Case (Space)        |
+|-----------------------|-----------------------------------------------------------|
+|       O(V)=O(b<sup>d) |           O(E)=O (b<sup>d)
+
 
 ### Depth-First
 * TODO
