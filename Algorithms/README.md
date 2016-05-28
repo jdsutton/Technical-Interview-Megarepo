@@ -25,7 +25,7 @@
 
 ### Selection Sort
 * Repeatedly extracts the smallest remaining element from the unsorted part of the set.
-* ![selection sort psuedocode](https://lh3.googleusercontent.com/9U_qAi6-IepChS14HEFKXYbpxc3ydStU96qK3VkA3i9BzO8KxXqSNFXgxgJNyFHR9h-QvAx9aVRxCtJGaA-4DtUoZtqvA4GpLf6-1fWAhHljIKgagnhDoR3-Sc65LZhoal3y3mut5qFA-lY-XZDn85BuLLC0xi_35ao_JBhkHpp0iAmY9kJxzJXMVMei84c7P9Y9qtEprTmRtherRo0W9BmOyHIT4kryv4hrzxcPBcOzWsovbHwn4aJMGEn9cVJ1984IB31-Z4vDBGjQPig79DeFXl8FZDEzbx7y1Z4Y9KBSfivdQG1NneKn5pYS64tFyUsZWj9kzD2YECMlfMVImniNBFn0xHb452FPD4IQKtPeiv2E4Xzzc4HSTvypFmuEjExkmt7oewESAxeYQPVp5XqIUgrsGvamSm8msUsPugi7MBnh72VgWPQhKHboFej7mzXNHiuiZyeOPO1YndQGroyjKqt3GhHUpgCDtqfHltKRUe1UGlagIN2HAwXy0iCmP0bIRu5TRJHthF55x5hynCa4UZUh5iMYRYkthDR8U_xmpvICSlJP4BQ2LZrXEGDuz48kpYYJzdC0kCFF0nyR2-qpJMGUE38=w248-h90-no)
+* ![selection sort psuedocode](http://i.imgur.com/v4nmfxF.png)
 * ![selection sort animation](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Selection_sort_animation.gif/250px-Selection_sort_animation.gif)
 * Poor performance, but easy to remember.
 
