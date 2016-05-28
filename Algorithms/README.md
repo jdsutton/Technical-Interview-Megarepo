@@ -25,7 +25,7 @@
 
 ### Selection Sort
 * Repeatedly extracts the smallest remaining element from the unsorted part of the set.
-* ![selection sort psuedocode](http://i.imgur.com/v4nmfxF.png)
+* ![selection sort psuedocode](https://lh3.googleusercontent.com/9U_qAi6-IepChS14HEFKXYbpxc3ydStU96qK3VkA3i9BzO8KxXqSNFXgxgJNyFHR9h-QvAx9aVRxCtJGaA-4DtUoZtqvA4GpLf6-1fWAhHljIKgagnhDoR3-Sc65LZhoal3y3mut5qFA-lY-XZDn85BuLLC0xi_35ao_JBhkHpp0iAmY9kJxzJXMVMei84c7P9Y9qtEprTmRtherRo0W9BmOyHIT4kryv4hrzxcPBcOzWsovbHwn4aJMGEn9cVJ1984IB31-Z4vDBGjQPig79DeFXl8FZDEzbx7y1Z4Y9KBSfivdQG1NneKn5pYS64tFyUsZWj9kzD2YECMlfMVImniNBFn0xHb452FPD4IQKtPeiv2E4Xzzc4HSTvypFmuEjExkmt7oewESAxeYQPVp5XqIUgrsGvamSm8msUsPugi7MBnh72VgWPQhKHboFej7mzXNHiuiZyeOPO1YndQGroyjKqt3GhHUpgCDtqfHltKRUe1UGlagIN2HAwXy0iCmP0bIRu5TRJHthF55x5hynCa4UZUh5iMYRYkthDR8U_xmpvICSlJP4BQ2LZrXEGDuz48kpYYJzdC0kCFF0nyR2-qpJMGUE38=w248-h90-no)
 * ![selection sort animation](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Selection_sort_animation.gif/250px-Selection_sort_animation.gif)
 * Poor performance, but easy to remember.
 
@@ -88,7 +88,12 @@
 * "In computational complexity theory, a decision problem is NP-complete when it is both in NP and NP-hard. The set of NP-complete problems is often denoted by NP-C or NPC. The abbreviation NP refers to "nondeterministic polynomial time". Although any given solution to an NP-complete problem can be verified quickly (in polynomial time), there is no known efficient way to locate a solution in the first place; indeed, the most notable characteristic of NP-complete problems is that no fast solution to them is known."
 
 ## Travelling Salesman Problem (TSP)
-* TODO
+* Travelling Salesman Problem (TSP): Given a set of cities and distance between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns to the starting point.
+Note the difference between Hamiltonian Cycle and TSP. The Hamiltoninan cycle problem is to find if there exist a tour that visits every city exactly once. Here we know that Hamiltonian Tour exists (because the graph is complete) and in fact many such tours exist, the problem is to find a minimum weight Hamiltonian Cycle.
+
+![TSP](http://d1gjlxt8vb0knt.cloudfront.net//wp-content/uploads/Euler12.png)
+
+* The problem is a famous NP hard problem. There is no polynomial time solution for this problem. Naive solution uses a recursive step, and there is a dynamic solution, although both are infeasible.  Approximate algorithm using MST is best alternative. 
 
 ## Knapsack
 * TODO
