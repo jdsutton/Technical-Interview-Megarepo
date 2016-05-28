@@ -60,7 +60,9 @@
 * Classic example: Literally, maintaining a queue. For example, a game's waiting room could use a queue to help determine who plays next.
 
 ## Trees
-* TODO
+* [Tree](https://en.wikipedia.org/wiki/Tree_(data_structure)#/media/File:Binary_tree.svg)
+
+* In computer science, a tree is a widely used abstract data type (ADT)—or data structure implementing this ADT—that simulates a      hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes.
 
 ## Binary Trees
 * [Binary Tree Visualization](http://kanaka.github.io/rbt_cfs/trees.html)
