@@ -84,13 +84,27 @@
 
 
 ### Depth-First
-* TODO
+* Like the Breadth-first, DF traverses trees and graphs, except it travels as far as possible on a branch before exploring.
+  b is branching factor, d is depth of search.
+
+| Worst Case (Without Repetition)| (Implicit) |  Worst Case (Space)                |
+|--------------------------------|------------|------------------------------------|
+|       O(E)                     | O(b<sup>d) | O(V)
 
 ### Uniform-Cost/Dijkstra's
-* TODO
+* Search algorithm for graphs which has many variants, known as Uniform-Cost or Best-search first (A.I.) The original finds the shortest path between two nodes and the first variant finds the shortest path given a static node and uses a min-priority queue.
+
+| Worst Case  
+|---------------------------|
+| O(E + V  logV)   
 
 ### A*
-* TODO
+* Search algorithm for graphs and pathfinding known for its performance and accuracy in plotting a path through multiple nodes. 
+ It is widely used, for example in gaming, although it can be outperformed by algorithms which pre-load the graph.
+
+| Worst Case            | Worst Case (Space)                                        |
+|-----------------------|-----------------------------------------------------------|
+| O(E)=O(b<sup>d)       | O(V)=O (b<sup>d)
 
 ### NP-Complete Problems
 * [Wikipedia - NP-Completeness](https://en.wikipedia.org/wiki/NP-completeness)
