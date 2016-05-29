@@ -34,6 +34,7 @@ This repository contains study materials for technical interviews.
 * [33 of the Hardest Questions Apple will ask in a Job Interview](http://www.businessinsider.com/the-hardest-apple-interview-questions-2016-4)
 * [Google Software Engineer Interview](https://www.glassdoor.com/Interview/Google-Software-Engineer-Interview-Questions-EI_IE9079.0,6_KO7,24.htm#InterviewReview_1369302)
 * [Interview Stories](http://intearview.com/)
+* [Advice to New Programmers Looking to Start their Career](http://blog.tplus1.com/blog/2016/05/28/my-advice-to-new-programmers-looking-to-start-their-career/)
 
 ## Books
 * [Cracking the Coding Interview](http://www.amazon.com/gp/product/098478280X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=098478280X&linkCode=as2&tag=htcatu-20&linkId=B6WXIEKJHEBBWJ7B)
