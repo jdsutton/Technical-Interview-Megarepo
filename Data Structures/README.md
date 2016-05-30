@@ -89,7 +89,9 @@
 
 ## K-d Trees
 * [Wikipedia - k-d tree](https://en.wikipedia.org/wiki/K-d_tree)
-* TODO
+* Space-partitioning data structure
+* Useful for fast range searches and nearest neighbor searches
+* Example application: Find all points within a certain region in space
 
 ## Trie-Trees
 * [Trie Visualization](https://people.ok.ubc.ca/ylucet/DS/Trie.html)
