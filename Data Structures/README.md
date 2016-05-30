@@ -80,6 +80,15 @@
 
 ## Binary Search Trees
 * [Binary Search Tree Visualization](http://visualgo.net/bst)
+* Data structure useful for fast lookup, addition, and removal.
+* Also useful for sorting (BST Sort)
+
+| Operation | Average  | Worst Case |
+|-----------|----------|------------|
+| Search    | O(log n) | O(n)       |
+| Insert    | O(log n) | O(n)       |
+| Delete    | O(log n) | O(n)       |
+| Space     | O(log n) | O(n)       |
 
 ## Balanced Binary Search Trees
 * TODO
