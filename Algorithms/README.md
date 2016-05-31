@@ -122,6 +122,7 @@ Note the difference between Hamiltonian Cycle and TSP. The Hamiltoninan cycle pr
 * The knapsack problem or rucksack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. It derives its name from the problem faced by someone who is constrained by a fixed-size knapsack and must fill it with the most valuable items. [Knapsack] (https://en.wikipedia.org/wiki/Knapsack_problem#Solving)
 
 ## Dynamic Programming
+* [Hackerrank - Dynamic Programming Basics](https://www.hackerrank.com/challenges/maxsubarray/topics/dynamic-programming-basics)
 * [MIT OCW - Dynamic Programming I](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-19-dynamic-programming-i-fibonacci-shortest-paths/)
 * [MIT OCW - Dynamic Programming II](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-20-dynamic-programming-ii-text-justification-blackjack/)
 * [MIT OCW - Dynamic Programming III](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-21-dp-iii-parenthesization-edit-distance-knapsack/)
