@@ -130,7 +130,7 @@ Note the difference between Hamiltonian Cycle and TSP. The Hamiltoninan cycle pr
 * General class of algorithms which use a "careful brute force" technique.
 * Basic idea: Split a problem into subproblems and reuse the subproblem solutions
 * "Memoization": Process of recording subproblem solutions to be used later on
-* DP = recursion + memoization
+* DP = recursion + memoization (+ guessing)
 * Running time = # of subproblems solved * time/subproblem
 * Bottom-up DP
   * Start with simplest subproblems and work your way up to the more complex problem
