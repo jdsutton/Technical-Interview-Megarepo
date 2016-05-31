@@ -121,3 +121,15 @@ Note the difference between Hamiltonian Cycle and TSP. The Hamiltoninan cycle pr
 ## Knapsack
 * The knapsack problem or rucksack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible. It derives its name from the problem faced by someone who is constrained by a fixed-size knapsack and must fill it with the most valuable items. [Knapsack] (https://en.wikipedia.org/wiki/Knapsack_problem#Solving)
 
+## Dynamic Programming
+* [MIT OCW - Dynamic Programming I](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-19-dynamic-programming-i-fibonacci-shortest-paths/)
+* [MIT OCW - Dynamic Programming II](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-20-dynamic-programming-ii-text-justification-blackjack/)
+* [MIT OCW - Dynamic Programming III](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-21-dp-iii-parenthesization-edit-distance-knapsack/)
+* [MIT OCW - Dynamic Programming IV](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/lecture-22-dp-iv-guitar-fingering-tetris-super-mario-bros/)
+* General class of algorithms which use a "careful brute force" technique.
+* Basic idea: Split a problem into subproblems and reuse the subproblem solutions
+* "Memoization": Process of recording subproblem solutions to be used later on
+* DP = recursion + memoization
+* Running time = # of subproblems solved * time/subproblem
+* Bottom-up DP
+  * Start with simplest subproblems and work your way up to the more complex problem
