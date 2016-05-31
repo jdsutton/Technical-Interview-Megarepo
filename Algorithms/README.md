@@ -133,3 +133,4 @@ Note the difference between Hamiltonian Cycle and TSP. The Hamiltoninan cycle pr
 * Running time = # of subproblems solved * time/subproblem
 * Bottom-up DP
   * Start with simplest subproblems and work your way up to the more complex problem
+  * Topological sort of subproblem dependency Directed Acyclic Graph (DAG)
