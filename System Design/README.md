@@ -10,7 +10,7 @@
 5. [Requirements Engineering](https://docs.google.com/document/d/1sSsmTQrhDu5jKUfMrOaX-uUEZPXQD7kIntZFSLazoaA/pub)
 
 ## Books
-* [Design Patterns: Elements of Reusalbe Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+* [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
 * [Code Complete](http://cc2e.com/)
 
 ## Design Patterns
