@@ -20,6 +20,8 @@
 * [Princeton + Coursera - Algorithms, Part I](https://www.coursera.org/course/algs4partI)
 * [Udacity - Intro to Algorithms: Social Network Analysis](https://www.udacity.com/course/intro-to-algorithms--cs215)
 
+You may find this helpful in understanding some of these algorithms: [http://jasonpark.me/AlgorithmVisualizer/](http://jasonpark.me/AlgorithmVisualizer/)
+
 ## Sorting
 ![sorting algorithm comparison](https://d262ilb51hltx0.cloudfront.net/max/800/1*w3vKy_JFKd50dixxFkpPPg.png)
 
