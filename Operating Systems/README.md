@@ -15,43 +15,71 @@
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) (free from the authors)
 
 ## Vocabulary
-* https://quizlet.com/9875856/operating-system-concepts-ch-1-flash-cards/ 
+* https://quizlet.com/9875856/operating-system-concepts-ch-1-flash-cards/
 
 ## Papers
 * [An Introduction to Programming with Threads](https://s3.amazonaws.com/content.udacity-data.com/courses/ud923/references/ud923-birrell-paper.pdf)
 
 ## System Calls
 * Requests to the kernel to perform some privileged operation
-* [Wikipedia - System Call](https://en.wikipedia.org/wiki/System_call)
-* "In computing, a system call is the programmatic way in which a computer program requests a service from the kernel of the operating system it is executed on. This may include hardware-related services (for example, accessing a hard disk drive), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system."
+* "A system call is the programmatic way in which a computer program requests a service from the kernel of the operating system it is executed on. This may include hardware-related services (for example, accessing a hard disk drive), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system." [[Wikipedia - System Call](https://en.wikipedia.org/wiki/System_call)]
+* On x86, it is usually performed using the `int` instruction, which generates a software trap, switching the processor to "ring-0" (allows priveleged instructions).
+    * Linux uses `int 0x80`
+* Most platforms wrap these system calls in standard libraries, such as libc on \*nix systems.
 
-## Processes
-* [Wikipedia - Process](https://en.wikipedia.org/wiki/Process_(computing))
-* "In computing, a process is an instance of a computer program that is being executed. It contains the program code and its current activity. Depending on the operating system (OS), a process may be made up of multiple threads of execution that execute instructions concurrently"
-
-## Threads
-* [Wikipedia - Thread](https://en.wikipedia.org/wiki/Thread_(computing))
-* "In computer science, a thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system."
+## Processes and Threads
+* "A process is an instance of a computer program that is being executed. It contains the program code and its current activity. Depending on the operating system (OS), a process may be made up of multiple threads of execution that execute instructions concurrently" [[Wikipedia - Process](https://en.wikipedia.org/wiki/Process_(computing))].
+* "A thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system." [[Wikipedia - Thread](https://en.wikipedia.org/wiki/Thread_(computing))]
+* Often, threads of the same process share the same address space and system resources.
 
 ## Concurrency
-* [Wikipedia - Concurrent Computing](https://en.wikipedia.org/wiki/Concurrent_computing)
-* "Concurrent computing is a form of computing in which several computations are executing during overlapping time periods—concurrently—instead of sequentially (one completing before the next starts)."
+* "Concurrent computing is a form of computing in which several computations are executing during overlapping time periods—concurrently—instead of sequentially (one completing before the next starts)." [[Wikipedia - Concurrent Computing](https://en.wikipedia.org/wiki/Concurrent_computing)]
+* The most common sources of concurrency are multiprocessing and multithreading.
+* Concurrency can significantly improve performance because multiple computations are happening at the same time.
+* Unfortunately, concurrency can be a source of nondeterministic bugs that are hard to find or debug.
+* Concurrency control primitives, such as locks, are used to ensure that use of common resources by multiple threads or processes is done correctly. Several concurrency control primitives are described below.
 
-## Lock/Mutex
+### Lock/Mutex
 * [University of Wisconson - Locks](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-locks.pdf)
-* [Wikiepedia - Lock](https://en.wikipedia.org/wiki/Lock_(computer_science))
-* "In computer science, a lock or mutex (from mutual exclusion) is a synchronization mechanism for enforcing limits on access to a resource in an environment where there are many threads of execution. A lock is designed to enforce a mutual exclusion concurrency control policy."
+* "A lock or mutex (from mutual exclusion) is a synchronization mechanism for enforcing limits on access to a resource in an environment where there are many threads of execution. A lock is designed to enforce a mutual exclusion concurrency control policy." [[Wikiepedia - Lock](https://en.wikipedia.org/wiki/Lock_(computer_science))]
 
-## Semaphores
-* [Wikipedia - Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming))
-* "In computer science, a semaphore is a variable or abstract data type that is used for controlling access, by multiple processes, to a common resource in a concurrent system such as a multiprogramming operating system."
-* [CareerRide - Semaphore](http://www.careerride.com/OS-semaphore.aspx)
-* "A semaphore is hardware or a software tag variable whose value indicates the status of a common resource. Its purpose is to lock the resource being used"
+### Semaphores
+* "A semaphore is a variable or abstract data type that is used for controlling access, by multiple processes, to a common resource in a concurrent system such as a multiprogramming operating system." [[Wikipedia - Semaphore](https://en.wikipedia.org/wiki/Semaphore_(programming))]
+* "A semaphore is hardware or a software tag variable whose value indicates the status of a common resource. Its purpose is to lock the resource being used" [[CareerRide - Semaphore](http://www.careerride.com/OS-semaphore.aspx)]
+* A simple implementation is to have an atomic counter in memory (e.g. using atomic compare and swap assembly instructions provided by most modern architectures).
+    * The counter begins at some initially value X, signifying that X threads can use the resource at a time.
+    * When a thread requests the resource, the counter is decremented.
+    * If the counter is greater than 0, the thread can proceed. Otherwise, it blocks until the counter becomes greater than 0.
+    * When a thread releases the resource, the counter is incremented.
+* A semaphore in which X=1 is a mutex since only one thread can use the resource at a time.
 
-## Monitors
+### Monitors
 * [Wikipedia - Monitor](https://en.wikipedia.org/wiki/Monitor_(synchronization))
 * "In concurrent programming, a monitor is a synchronization construct that allows threads to have both mutual exclusion and the ability to wait (block) for a certain condition to become true. Monitors also have a mechanism for signalling other threads that their condition has been met. "
- 
-## Deadlock, Livelock
-* What are they?
-* How to avoid them?
+
+### Deadlock, Livelock
+* In concurrent programs, there maybe executions (resulting from bugs) in which threads cease to make progress. Deadlock and livelock are two such cases.
+    * A deadlock occurs when two processes become mutually depended. That is, process A cannot make progress until B finishes, and B cannot make progress until A finishes.
+        * Deadlock usually occur in the context of locks.
+        * For example, process A locks access to the printer and tries to get access to file `foo.txt`, which it wants to print. Meanwhile, process B locks access to the file and then tries to get access to the file. Imagine the following sequence of events:
+            * A locks printer
+            * B locks file
+            * A attempts to lock file, but blocks because B has already locked it
+            * B attempts to lock printer, but blocks because A has already locked it
+    * A livelock occurs when two processes continually change state but do not make progress.
+        * For example,
+            * A locks printer
+            * B locks file
+            * A attempts to lock file, but cannot because B has already locked it
+            * B attempts to lock printer, but blocks because A has already locked it
+            * A releases the printer and waits for the file to be unlocked
+            * B releases the file and waits for the printer to be unlocked
+            * A notices that the file is unlocked and tries again
+            * B notices that the printer is unlocked and tries again
+            * Repeat forever
+* How to avoid deadlock
+    * Careful design: if all threads acquire locks in the same order, they cannot deadlock. In the example above, if A and B try to lock the file first, neither can deadlock, though one may block temporarily.
+    * Detection schemes: Some systems, such as database systems, try to detect deadlocks when they happen. Then, they kill one of the processes deadlocking and release its resources so the others can proceed.
+        * Dependency graphs can be constructed by representing each thread as a node. If A needs a resource that B has currently, a directed edge is drawn from A to B. If this graph has a cycle the processes in the cycle are deadlocked.
+* How to avoid livelock
+    * Variable timeouts
