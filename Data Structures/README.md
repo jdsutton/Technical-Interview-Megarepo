@@ -111,7 +111,16 @@
 
 ## Graphs
 * [Graph Visualization](http://visualgo.net/graphds)
-* TODO
+* Adjacency List
+  * Useful for sparse graphs
+  * Allows quick addition of a vertex or edge
+  * Slow to remove vertices and edges
+* Adjacency Matrix
+  * Useful for densely connected graphs
+  * Allows quick checking for connections between vertices
+  * Allows for quick addition of an edge
+  * Slow to add or remove vertices
+* Objects and Pointers
 
 ## HashTables
 * [HashTable Visualization](http://visualgo.net/hashtable)
