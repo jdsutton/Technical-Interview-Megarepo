@@ -17,6 +17,9 @@
 ## Vocabulary
 * https://quizlet.com/9875856/operating-system-concepts-ch-1-flash-cards/ 
 
+## Papers
+* [An Introduction to Programming with Threads](https://s3.amazonaws.com/content.udacity-data.com/courses/ud923/references/ud923-birrell-paper.pdf)
+
 ## System Calls
 * Requests to the kernel to perform some privileged operation
 * [Wikipedia - System Call](https://en.wikipedia.org/wiki/System_call)
