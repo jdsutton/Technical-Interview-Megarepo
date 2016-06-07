@@ -59,27 +59,29 @@
 
 ### Deadlock, Livelock
 * In concurrent programs, there may be executions (resulting from bugs) in which threads cease to make progress. Deadlock and livelock are two such cases.
-    * A deadlock occurs when two processes become mutually dependent. That is, process A cannot make progress until B finishes, and B cannot make progress until A finishes.
-        * Deadlock usually occur in the context of locks.
-        * For example, process A locks access to the printer and tries to get access to file `foo.txt`, which it wants to print. Meanwhile, process B locks access to the file and then tries to get access to the printer. Imagine the following sequence of events:
-            * A locks printer
-            * B locks file
-            * A attempts to lock file, but blocks because B has already locked it
-            * B attempts to lock printer, but blocks because A has already locked it
-    * A livelock occurs when two processes continually change state but do not make progress.
-        * For example,
-            * A locks printer
-            * B locks file
-            * A attempts to lock file, but cannot because B has already locked it
-            * B attempts to lock printer, but blocks because A has already locked it
-            * A releases the printer and waits for the file to be unlocked
-            * B releases the file and waits for the printer to be unlocked
-            * A notices that the file is unlocked and tries again
-            * B notices that the printer is unlocked and tries again
-            * Repeat forever
-* How to avoid deadlock
-    * Careful design: if all threads acquire locks in the same order, they cannot deadlock. In the example above, if A and B try to lock the file first, neither can deadlock, though one may block temporarily.
-    * Detection schemes: Some systems, such as database systems, try to detect deadlocks when they happen. Then, they kill one of the processes deadlocking and release its resources so the others can proceed.
-        * Dependency graphs can be constructed by representing each thread as a node. If A needs a resource that B has currently, a directed edge is drawn from A to B. If this graph has a cycle the processes in the cycle are deadlocked.
-* How to avoid livelock
-    * Variable timeouts
+* Deadlock
+  * Deadlock usually occur in the context of locks.
+  * A deadlock occurs when two processes become mutually dependent. That is, process A cannot make progress until B finishes, and B cannot make progress until A finishes.
+  * For example, process A locks access to the printer and tries to get access to file `foo.txt`, which it wants to print. Meanwhile, process B locks access to the file and then tries to get access to the printer. Imagine the following sequence of events:
+      * A locks printer
+      * B locks file
+      * A attempts to lock file, but blocks because B has already locked it
+      * B attempts to lock printer, but blocks because A has already locked it
+   * How to avoid deadlock
+     * Careful design: if all threads acquire locks in the same order, they cannot deadlock. In the example above, if A and B try to lock the file first, neither can deadlock, though one may block temporarily.
+     * Detection schemes: Some systems, such as database systems, try to detect deadlocks when they happen. Then, they kill one of the processes deadlocking and release its resources so the others can proceed.
+     * Dependency graphs can be constructed by representing each thread as a node. If A needs a resource that B has currently, a directed edge is drawn from A to B. If this graph has a cycle the processes in the cycle are deadlocked.
+* Livelock
+   * A livelock occurs when two processes continually change state but do not make progress.
+   * For example,
+      * A locks printer
+      * B locks file
+      * A attempts to lock file, but cannot because B has already locked it
+      * B attempts to lock printer, but blocks because A has already locked it
+      * A releases the printer and waits for the file to be unlocked
+      * B releases the file and waits for the printer to be unlocked
+      * A notices that the file is unlocked and tries again
+      * B notices that the printer is unlocked and tries again
+      * Repeat forever
+   * How to avoid livelock
+     * Variable timeouts
