@@ -20,7 +20,7 @@
 * [Princeton + Coursera - Algorithms, Part I](https://www.coursera.org/course/algs4partI)
 * [Udacity - Intro to Algorithms: Social Network Analysis](https://www.udacity.com/course/intro-to-algorithms--cs215)
 
-You may find this helpful in understanding some of these algorithms: [http://jasonpark.me/AlgorithmVisualizer/](http://jasonpark.me/AlgorithmVisualizer/)
+You may find this visualizer helpful in understanding some of these algorithms: [http://jasonpark.me/AlgorithmVisualizer/](http://jasonpark.me/AlgorithmVisualizer/). It is worth noting that the visualization of N-queens uses a brute-force algorithm, whereas there are faster known algorithms as discussed below.
 
 ## Sorting
 ![sorting algorithm comparison](https://d262ilb51hltx0.cloudfront.net/max/800/1*w3vKy_JFKd50dixxFkpPPg.png)
@@ -141,3 +141,12 @@ Note the difference between Hamiltonian Cycle and TSP. The Hamiltoninan cycle pr
   * "Once we formulate the solution to a problem recursively as in terms of its sub-problems, we can try reformulating the problem in a bottom-up fashion: try solving the sub-problems first and use their solutions to build-on and arrive at solutions to bigger sub-problems. This is also usually done in a tabular form by iteratively generating solutions to bigger and bigger sub-problems by using the solutions to small sub-problems."
 * Top-down approach
   * "This is the direct fall-out of the recursive formulation of any problem. If the solution to any problem can be formulated recursively using the solution to its sub-problems, and if its sub-problems are overlapping, then one can easily memoize or store the solutions to the sub-problems in a table. Whenever we attempt to solve a new sub-problem, we first check the table to see if it is already solved. If a solution has been recorded, we can use it directly, otherwise we solve the sub-problem and add its solution to the table."
+ 
+## Constraint Satisfaction Problems and Optimization
+* "Constraint satisfaction problems (CSPs) are mathematical problems defined as a set of objects whose state must satisfy a number of constraints or limitations. CSPs represent the entities in a problem as a homogeneous collection of finite constraints over variables, which is solved by constraint satisfaction methods. CSPs are the subject of intense research in both artificial intelligence and operations research, since the regularity in their formulation provides a common basis to analyze and solve problems of many seemingly unrelated families. CSPs often exhibit high complexity, requiring a combination of heuristics and combinatorial search methods to be solved in a reasonable time." [[Wikipedia](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem)]
+* Optimization problems are a specialization of CSPs that find the best solution satisfying a set of constraints.
+ * Linear programming is a further specialization in which we are trying to maximize a linear algebraic expression subject to linear constraints.
+* Some examples of CSPs:
+ * The N-queens problem (can be solved in "roughly linear time" using the min-conflicts algorithm)
+ * Map coloring
+ * Many logic puzzles (e.g. Sudoku)
