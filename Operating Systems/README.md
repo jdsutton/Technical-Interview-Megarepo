@@ -59,9 +59,9 @@
 
 ### Deadlock, Livelock
 * In concurrent programs, there may be executions (resulting from bugs) in which threads cease to make progress. Deadlock and livelock are two such cases.
-    * A deadlock occurs when two processes become mutually depended. That is, process A cannot make progress until B finishes, and B cannot make progress until A finishes.
+    * A deadlock occurs when two processes become mutually dependent. That is, process A cannot make progress until B finishes, and B cannot make progress until A finishes.
         * Deadlock usually occur in the context of locks.
-        * For example, process A locks access to the printer and tries to get access to file `foo.txt`, which it wants to print. Meanwhile, process B locks access to the file and then tries to get access to the file. Imagine the following sequence of events:
+        * For example, process A locks access to the printer and tries to get access to file `foo.txt`, which it wants to print. Meanwhile, process B locks access to the file and then tries to get access to the printer. Imagine the following sequence of events:
             * A locks printer
             * B locks file
             * A attempts to lock file, but blocks because B has already locked it
