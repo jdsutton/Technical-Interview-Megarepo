@@ -58,7 +58,7 @@
 * "In concurrent programming, a monitor is a synchronization construct that allows threads to have both mutual exclusion and the ability to wait (block) for a certain condition to become true. Monitors also have a mechanism for signalling other threads that their condition has been met. "
 
 ### Deadlock, Livelock
-* In concurrent programs, there maybe executions (resulting from bugs) in which threads cease to make progress. Deadlock and livelock are two such cases.
+* In concurrent programs, there may be executions (resulting from bugs) in which threads cease to make progress. Deadlock and livelock are two such cases.
     * A deadlock occurs when two processes become mutually depended. That is, process A cannot make progress until B finishes, and B cannot make progress until A finishes.
         * Deadlock usually occur in the context of locks.
         * For example, process A locks access to the printer and tries to get access to file `foo.txt`, which it wants to print. Meanwhile, process B locks access to the file and then tries to get access to the file. Imagine the following sequence of events:
