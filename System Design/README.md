@@ -9,6 +9,7 @@
 4. [Version Control](https://docs.google.com/document/d/170g6s3JR6K0pKT_Ni0oGdxgmCv9fvtBWH7DKmlBXFd0/pub)
 5. [Requirements Engineering](https://docs.google.com/document/d/1sSsmTQrhDu5jKUfMrOaX-uUEZPXQD7kIntZFSLazoaA/pub)
 6. [OO Software Engineering](https://docs.google.com/document/d/1gzr0sWh-OkaONLUEdLOtDcG1AIZUmvyMiAkWPh--Sc8/pub)
+7. [Software Architecture](https://docs.google.com/document/d/1XCJWYaSKpHa8FIiDh4rFqwDdxwBbXlcg2Ictu7QzB6E/pub)
 
 ## Books
 * [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
