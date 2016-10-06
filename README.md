@@ -1,4 +1,6 @@
 # Technical Interview Megarepo
+:star: If you benefit from this study guide, please contribute to it so others can as well. Thank you. :star:
+
 This repository contains study materials for technical interviews.
 
 ## Study Material
