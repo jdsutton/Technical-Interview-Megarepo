@@ -29,6 +29,7 @@ This repository contains study materials for technical interviews.
 * [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
 
 ## Articles
+* [Top 10 Algorithms for Coding Interviews](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 * [Five Tips to Crack any Technical Interview](https://www.linkedin.com/pulse/20140709101232-15993456-five-tips-to-crack-any-technical-interview)
 * [10 Tech Interview Errors](http://www.monster.com/career-advice/article/ten-tech-it-interview-errors)
 * [How to Win the Coding Interview](https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.86ew7cfex)
