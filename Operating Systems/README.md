@@ -32,6 +32,9 @@
 * "A thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system." [[Wikipedia - Thread](https://en.wikipedia.org/wiki/Thread_(computing))]
 * Often, threads of the same process share the same address space and system resources.
 
+## IPC
+[Interprocess Communication](http://advancedlinuxprogramming.com/alp-folder/alp-ch05-ipc.pdf)
+
 ## Concurrency
 * "Concurrent computing is a form of computing in which several computations are executing during overlapping time periods—concurrently—instead of sequentially (one completing before the next starts)." [[Wikipedia - Concurrent Computing](https://en.wikipedia.org/wiki/Concurrent_computing)]
 * The most common sources of concurrency are multiprocessing and multithreading.
