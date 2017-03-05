@@ -1,4 +1,5 @@
 # Data Structures
+[Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
 
 ## Arrays
 
