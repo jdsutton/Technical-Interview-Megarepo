@@ -1,4 +1,5 @@
 # Algorithms
+[Dictionary of Algorithms and Data Structures](https://xlinux.nist.gov/dads/)
 
 ## Algorithm Analysis
 * [Khan Academy - Asymptotic Notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
