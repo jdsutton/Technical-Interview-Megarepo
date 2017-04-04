@@ -1,5 +1,5 @@
 # Technical Interview Megarepo
-:star: If you benefit from this study guide, please contribute to it so others can as well. Thank you. :star:
+:star: If you benefit from this study guide, please [contribute](https://github.com/jdsutton/Technical-Interview-Megarepo/blob/master/CONTRIBUTING.md) and consider [donating](https://github.com/jdsutton/Technical-Interview-Megarepo/blob/master/DONATE.md). Thank you. :star:
 
 This repository contains study materials for technical interviews.
 
