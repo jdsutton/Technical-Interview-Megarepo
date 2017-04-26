@@ -20,6 +20,9 @@
 ## Papers
 * [An Introduction to Programming with Threads](https://s3.amazonaws.com/content.udacity-data.com/courses/ud923/references/ud923-birrell-paper.pdf)
 
+## Articles
+* [Grok the GIL: How to write fast and thread-safe Python](https://opensource.com/article/17/4/grok-gil)
+
 ## System Calls
 * Requests to the kernel to perform some privileged operation
 * "A system call is the programmatic way in which a computer program requests a service from the kernel of the operating system it is executed on. This may include hardware-related services (for example, accessing a hard disk drive), creation and execution of new processes, and communication with integral kernel services such as process scheduling. System calls provide an essential interface between a process and the operating system." [[Wikipedia - System Call](https://en.wikipedia.org/wiki/System_call)]
