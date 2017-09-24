@@ -12,6 +12,7 @@ This repository contains study materials for technical interviews.
 * [Interview Tips](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Advice)
 
 ## Practice Questions
+* [Pramp - Practice real coding interview simulation](https://www.pramp.com/ref/gt6)
 * [Hacker Rank](https://www.hackerrank.com/)
 * [CodeWars](http://www.codewars.com/)
 * [Leet Code](https://leetcode.com/)
