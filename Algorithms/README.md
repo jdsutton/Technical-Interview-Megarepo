@@ -17,7 +17,7 @@
 * Skiena - The Algorithm Design Manual
 
 ## Courses
-* [Standford + Coursera - Algorithms: Design and Analysis, Part 1](https://www.coursera.org/course/algo)
+* [Stanford + Coursera - Algorithms: Design and Analysis, Part 1](https://www.coursera.org/course/algo)
 * [Princeton + Coursera - Algorithms, Part I](https://www.coursera.org/course/algs4partI)
 * [Udacity - Intro to Algorithms: Social Network Analysis](https://www.udacity.com/course/intro-to-algorithms--cs215)
 
