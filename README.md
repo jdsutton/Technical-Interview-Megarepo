@@ -12,6 +12,7 @@ This repository contains study materials for technical interviews.
 * [Interview Tips](https://github.com/jdsutton/Technical-Interview-Megarepo/tree/master/Advice)
 
 ## Practice Questions
+* [interviewing.io](https://interviewing.io/)
 * [Pramp - Practice real coding interview simulation](https://www.pramp.com/ref/gt6)
 * [Hacker Rank](https://www.hackerrank.com/)
 * [CodeWars](http://www.codewars.com/)
@@ -28,6 +29,7 @@ This repository contains study materials for technical interviews.
 
 ## Videos
 * [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
+* [Technical mock interviews with engineers from Google, Microsoft, Netflix, Amazon, and more](https://interviewing.io/recordings)
 
 ## Articles
 * [I spent 3 months applying to jobs after a coding bootcamp. Here’s what I learned.](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.gv33jktqq)
