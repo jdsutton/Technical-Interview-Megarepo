@@ -25,6 +25,7 @@ This repository contains study materials for technical interviews.
 * [CodeRust](https://www.educative.io/collection/5642554087309312/5679846214598656)
 * ["Awesome Interview Questions"](https://github.com/MaximAbramchuck/awesome-interview-questions)
 * [Codility for programmers](https://codility.com/programmers/)
+* [Meetapro - mock interviews with experienced FAANG interviewers](https://meetapro.com/?utm_source=timgit)
 
 ## Videos
 * [How to Work at Google - Candidate Coaching Session](https://www.youtube.com/watch?v=oWbUtlUhwa8&feature=youtu.be)
